@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/step_history_lv_item_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/step_history_lv_item_iv" />
+
+    <TextView
+        android:id="@+id/step_history_lv_item_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/step_history_lv_item_iv"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="11dp"
+        android:layout_alignParentTop="true"
+        style="@style/style_step_history_lv_item_tv_title"/>
+
+    <TextView
+        android:id="@+id/step_history_lv_item_tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_history_lv_item_tv_title"
+        android:layout_alignLeft="@id/step_history_lv_item_tv_title"
+        android:layout_marginTop="5dp"
+        style="@style/style_step_history_lv_item_tv_date"/>
+
+    <TextView
+        android:id="@+id/step_history_lv_item_tv_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        style="@style/style_step_history_lv_item_tv_step"/>
+
+</RelativeLayout>

@@ -1,0 +1,220 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="style_comm_title_centre_tv">
+        <item name="android:textSize">60px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_comm_title_right_tv">
+        <item name="android:text">@string/str_record</item>
+        <item name="android:textSize">48px</item>
+        <item name="android:textColor">@drawable/title_right_tv</item>
+    </style>
+
+    <style name="style_start_page_current_target_tv_text">
+        <item name="android:textSize">48px</item>
+        <!-- <item name="android:textColor">#b3ffffff</item> -->
+        <item name="android:textColor">@drawable/title_right_tv</item>
+                <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="style_start_page_current_distance_tv_text">
+        <item name="android:textSize">58px</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="style_start_page_start_step_counter_btn">
+        <item name="android:textSize">58px</item>
+        <item name="android:textColor">#ff05a5f1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_history_page_insist_days_tv">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="style_history_page_insist_title_tv">
+        <item name="android:text">@string/str_insist_days</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+
+    <style name="style_history_page_achieved_days_tv">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="style_history_page_achieved_title_tv">
+        <item name="android:text">@string/str_achieved_days</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+
+    <style name="style_history_page_days_en_tv">
+        <item name="android:text">@string/str_days_en</item>
+        <item name="android:textSize">@dimen/dimen_days_weeks_months_en_tv</item>
+        <item name="android:textColor">@drawable/color_days_weeks_months_en_tv</item>
+    </style>
+
+    <style name="style_history_page_days_cn_tv">
+        <item name="android:text">@string/str_days_cn</item>
+        <item name="android:textSize">@dimen/dimen_days_weeks_months_cn_tv</item>
+        <item name="android:textColor">@drawable/color_days_weeks_months_cn_tv</item>
+    </style>
+
+    <style name="style_history_page_weeks_en_tv">
+        <item name="android:text">@string/str_weeks_en</item>
+        <item name="android:textSize">@dimen/dimen_days_weeks_months_en_tv</item>
+        <item name="android:textColor">@drawable/color_days_weeks_months_en_tv</item>
+    </style>
+
+    <style name="style_history_page_weeks_cn_tv">
+        <item name="android:text">@string/str_weeks_cn</item>
+        <item name="android:textSize">@dimen/dimen_days_weeks_months_cn_tv</item>
+        <item name="android:textColor">@drawable/color_days_weeks_months_cn_tv</item>
+    </style>
+
+    <style name="style_history_page_months_en_tv">
+        <item name="android:text">@string/str_months_en</item>
+        <item name="android:textSize">@dimen/dimen_days_weeks_months_en_tv</item>
+        <item name="android:textColor">@drawable/color_days_weeks_months_en_tv</item>
+    </style>
+
+    <style name="style_history_page_months_cn_tv">
+        <item name="android:text">@string/str_months_cn</item>
+        <item name="android:textSize">@dimen/dimen_days_weeks_months_cn_tv</item>
+        <item name="android:textColor">@drawable/color_days_weeks_months_cn_tv</item>
+    </style>
+
+    <style name="style_step_history_lv_item_tv_title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff595969</item>
+    </style>
+
+    <style name="style_step_history_lv_item_tv_date">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ff595969</item>
+        <item name="android:alpha">0.6</item>
+    </style>
+
+    <style name="style_step_history_lv_item_tv_step">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#ff595969</item>
+    </style>
+
+    <style name="style_custom_dialog_set_target_title_text">
+        <item name="android:text">@string/str_custom_dialog_title_set_target</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff4c4c4c</item>
+    </style>
+
+    <style name="style_custom_dialog_stop_stepcounter_title_text">
+        <item name="android:text">@string/str_custom_dialog_title_stop_stepcounter</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff4c4c4c</item>
+    </style>
+
+    <style name="style_custom_dialog_edit_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffbababa</item>
+        <item name="android:textColorHint">#ffbababa</item>
+    </style>
+
+    <style name="style_custom_dialog_confirm_btn">
+        <item name="android:text">@string/str_confirm</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#fffd3b31</item>
+    </style>
+
+    <style name="style_custom_dialog_cancel_btn">
+        <item name="android:text">@string/str_cancel</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff4d4d4d</item>
+    </style>
+
+    <style name="style_custom_dialog_stop_btn">
+        <item name="android:text">@string/str_stop</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#fffd3b31</item>
+    </style>
+
+    <style name="style_popup_menu_item_history">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:text">@string/str_menu_history</item>
+    </style>
+
+    <style name="style_popup_menu_item_target">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:text">@string/str_menu_target</item>
+    </style>
+
+    <style name="style_popup_menu_item_stop_step_counter">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:text">@string/str_menu_stop_step_counter</item>
+    </style>
+
+    <style name="style_notification_text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffff0000</item>
+        <item name="android:text">@string/str_notification_tips</item>
+    </style>
+
+    <style name="style_notification_btn_text">
+        <item name="android:text">@string/str_stop_countting</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@drawable/color_common_text_view</item>
+    </style>
+
+    <style name="style_marsk_view_tips_text">
+        <item name="android:text">@string/str_modify_tips</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="style_marsk_view_btn_text">
+        <item name="android:text">@string/str_knows_tips</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@drawable/color_common_text_view</item>
+    </style>
+
+    <style name="style_step_lockscreen_time">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="style_step_lockscreen_date">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="style_step_lockscreen_title">
+        <item name="android:text">@string/str_lock_screen_current_steps</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff00ff00</item>
+    </style>
+
+    <style name="style_step_lockscreen_current_step">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#FF000000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="style_step_lockscreen_swipe_tips">
+        <item name="android:text">@string/str_lock_screen_swipe_tips</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff00ff00</item>
+    </style>
+
+</resources>

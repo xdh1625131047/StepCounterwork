@@ -1,0 +1,68 @@
+<resources>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/color_blue</item>
+    </style>
+
+    <style name="CustomTheme">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="StylePopupWindowMenu" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/StylePopupWindowMenuAnimation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="StylePopupWindowMenuAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/popup_menu_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_menu_out</item>
+    </style>
+
+    <style name="StyleActivityAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/anim_activity_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_activity_out</item>
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- <style name="LockScreenActivityTheme" parent="@android:style/Theme.Wallpaper.NoTitleBar"> -->
+    <style name="LockScreenActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+<!--         <item name="android:windowAnimationStyle">@style/StyleActivityAnimation</item> -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+        <style name="LockScreenActivityTheme1" parent="@android:style/Theme.Wallpaper.NoTitleBar">
+    </style>
+
+    <style name="TranslucentTheme" parent="AppTheme">
+        <!-- 在Android 4.4之前的版本上运行，直接跟随系统主题 -->
+    </style>
+
+    <style name="LockScreenTheme" parent="LockScreenActivityTheme"></style>
+    <style name="LockScreenTheme1" parent="LockScreenActivityTheme1"></style>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="159dip"
+    android:background="@drawable/custom_dialog_shape"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/style_custom_dialog_stop_stepcounter_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+
+    <RelativeLayout
+        android:layout_width="248dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip" >
+
+        <Button
+            android:id="@+id/dialog_stop_stepcounter_confirm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/custom_button_shape"
+            style="@style/style_custom_dialog_stop_btn"/>
+
+        <Button
+            android:id="@+id/dialog_stop_stepcounter_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/custom_button_shape"
+            style="@style/style_custom_dialog_cancel_btn"/>
+    </RelativeLayout>
+
+</LinearLayout>

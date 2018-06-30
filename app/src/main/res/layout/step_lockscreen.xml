@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/step_lockscreen_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99000000"
+    android:fitsSystemWindows="true"
+    android:longClickable="true" >
+
+    <TextClock
+        android:id="@+id/step_lockscreen_time"
+        style="@style/style_step_lockscreen_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40.0dip" />
+
+    <TextClock
+        android:id="@+id/step_lockscreen_date"
+        style="@style/style_step_lockscreen_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_lockscreen_time"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="200dip"
+        android:layout_below="@id/step_lockscreen_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/lockscreen_step_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/step_lockscreen_title"
+            style="@style/style_step_lockscreen_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/walking"
+            android:drawablePadding="8.0dip"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:singleLine="true" />
+
+        <View
+            android:id="@+id/seprator"
+            android:layout_width="150dip"
+            android:layout_height="1dip"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffffff" />
+
+        <TextView
+            android:id="@+id/step_lockscreen_current_step"
+            style="@style/style_step_lockscreen_current_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18.0dip"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50.0dip"
+        android:indeterminateDrawable="@drawable/lock_screen_pull_bottom" />
+
+    <TextView
+        style="@style/style_step_lockscreen_swipe_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10.0dip"
+        android:gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_start_page"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_window_background"
+        android:orientation="vertical" >
+
+        <include layout="@layout/comm_title" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/distance_iv"
+                android:layout_width="match_parent"
+                android:layout_height="200dip" 
+                android:background="@drawable/bg_start_page"/>
+<!--                 android:background="@drawable/drawable_history_record" /> -->
+
+            <RelativeLayout
+                android:layout_width="180dip"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/distance_iv"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@id/distance_iv" 
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/insist_days_tv"
+                    style="@style/style_history_page_insist_days_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dimen_insist_days_tv_paddingTop" />
+
+                <TextView
+                    style="@style/style_history_page_insist_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/insist_days_tv"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="15dip" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/distance_iv"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/distance_iv" >
+
+                <TextView
+                    android:id="@+id/achieved_days_tv"
+                    style="@style/style_history_page_achieved_days_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dimen_insist_days_tv_paddingTop" />
+
+                <TextView
+                    style="@style/style_history_page_achieved_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/achieved_days_tv"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="15dip" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/seprator"
+                android:layout_width="340dip"
+                android:layout_height="0.5dip"
+                android:layout_below="@id/distance_iv"
+                android:layout_centerHorizontal="true"
+                android:background="@color/color_seprator" />
+
+            <LinearLayout
+                android:id="@+id/layout_days"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/seprator"
+                android:layout_below="@id/seprator"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/days_en_tv"
+                    style="@style/style_history_page_days_en_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/days_cn_tv"
+                    style="@style/style_history_page_days_cn_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dip"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/layout_days_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="9dip"
+                    android:src="@drawable/point_view_selector_red"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_weeks"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/layout_days"
+                android:layout_toRightOf="@id/layout_days"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/weeks_en_tv"
+                    style="@style/style_history_page_weeks_en_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/weeks_cn_tv"
+                    style="@style/style_history_page_weeks_cn_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dip"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/layout_weeks_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="9dip"
+                    android:src="@drawable/point_view_selector_red"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_months"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/layout_weeks"
+                android:layout_toRightOf="@id/layout_weeks"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/months_en_tv"
+                    style="@style/style_history_page_months_en_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/months_cn_tv"
+                    style="@style/style_history_page_months_cn_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dip"
+                    android:singleLine="true" />
+
+                <ImageView
+                    android:id="@+id/layout_months_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="9dip"
+                    android:src="@drawable/point_view_selector_red"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="340dip"
+            android:layout_height="0.5dip"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:background="@color/color_seprator" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" >
+
+            <ListView
+                android:id="@+id/step_history_lv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1.0"
+                android:cacheColorHint="#00000000"
+                android:divider="#ffececec"
+                android:dividerHeight="1.0px"
+                android:visibility="visible" />
+
+            <include
+                layout="@layout/list_empty_view"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

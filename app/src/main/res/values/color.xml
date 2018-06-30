@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_blue">#0000FF</color>
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark">#803cbcb7</color>
+    <color name="light">#800de6e8</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#EE9A00</color>
+    <color name="red">#ffff0000</color>
+    <color name="black">#ff000000</color>
+    <color name="progress_arc_color">#ffff6294</color>
+
+    <integer-array name="gradient_arc_color">
+        <item>@color/progress_arc_color</item>
+<!--         <item>@color/green</item> -->
+<!--         <item>@color/blue</item> -->
+<!--         <item>@color/red</item> -->
+    </integer-array>
+
+    <color name="color_window_background">#fffafafc</color>
+    <color name="color_circleprogress">#80ffffff</color>
+    <color name="color_title_right_tv_normal">#ffffffff</color>
+    <color name="color_title_right_tv_pressed">#ffff0000</color>
+    <color name="color_seprator">#ff595969</color>
+    <color name="color_days_weeks_months_tv_en_normal">#ffa9b2b8</color>
+    <color name="color_days_weeks_months_tv_en_selected">#fff43939</color>
+    <color name="color_days_weeks_months_tv_cn_normal">#ff323239</color>
+    <color name="color_days_weeks_months_tv_cn_selected">#fff43939</color>
+    <color name="color_history_days_point">#ff7cd5fd</color>
+    <color name="color_history_weeks_point">#fffa993e</color>
+    <color name="color_history_months_point">#ffff6294</color>
+    <color name="color_start_button_tv">#ff05a5f1</color>
+    <color name="color_stop_button_tv">#ffff0000</color>
+    
+
+</resources>

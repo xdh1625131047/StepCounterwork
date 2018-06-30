@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingRight="5dip"
+    android:paddingTop="50.0dip">
+
+    <Button
+        android:id="@+id/popup_menu_item_history"
+        style="@style/style_popup_menu_item_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_menu_item_shape" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#ffececec" />
+
+    <Button
+        android:id="@+id/popup_menu_item_target"
+        style="@style/style_popup_menu_item_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_menu_item_shape" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#ffececec" />
+
+    <Button
+        android:id="@+id/popup_menu_item_stop_step_counter"
+        style="@style/style_popup_menu_item_stop_step_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_menu_item_shape" />
+
+</LinearLayout>

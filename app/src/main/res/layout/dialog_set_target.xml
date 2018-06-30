@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_dialog_shape"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/style_custom_dialog_set_target_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/edit_target"
+        style="@style/style_custom_dialog_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/comm_edittext_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:singleLine="true"/>
+
+    <RelativeLayout
+        android:layout_width="248dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip" >
+
+        <Button
+            android:id="@+id/dialog_set_target_confirm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/custom_button_shape"
+            style="@style/style_custom_dialog_confirm_btn"/>
+
+        <Button
+            android:id="@+id/dialog_set_target_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/custom_button_shape"
+            style="@style/style_custom_dialog_cancel_btn"/>
+    </RelativeLayout>
+
+</LinearLayout>

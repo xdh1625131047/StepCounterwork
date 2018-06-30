@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dip"
+    android:padding="5dip">
+    
+    <ImageView 
+        android:id="@+id/notification_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher" />
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/notification_img"
+        android:layout_toLeftOf="@+id/btn_notification_stop"
+        android:layout_centerVertical="true"
+        style="@style/style_notification_text"/>
+    <Button 
+        android:id="@+id/btn_notification_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/notification_button_shape"
+        style="@style/style_notification_btn_text" />
+
+</RelativeLayout>

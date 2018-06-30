@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cll_act_screen_off"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#99000000" >
+
+    <TextClock
+        android:id="@+id/cll_act_screen_off_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76.0dip"
+        android:textColor="@android:color/white"
+        android:textSize="40.0sp" />
+
+    <TextClock
+        android:id="@+id/cll_act_screen_off_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cll_act_screen_off_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2.0dip"
+        android:textColor="@android:color/white"
+        android:textSize="14.0sp" />
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/cll_act_screen_off_time" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_marginTop="76.0dip" -->
+    <!-- android:textColor="@android:color/white" -->
+    <!-- android:textSize="40.0sp" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/cll_act_screen_off_date" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@id/cll_act_screen_off_time" -->
+    <!-- android:layout_centerHorizontal="true" -->
+    <!-- android:layout_marginTop="2.0dip" -->
+    <!-- android:textColor="@android:color/white" -->
+    <!-- android:textSize="14.0sp" /> -->
+
+    <LinearLayout
+        android:id="@+id/cll_act_screen_off_line_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cll_act_screen_off_date"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="50dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/cll_act_screen_off_line_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:textColor="#deffffff"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/cll_act_screen_off_direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8.0dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#deffffff"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cll_act_screen_off_station_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cll_act_screen_off_line_ly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="8.0dip"
+        android:drawableLeft="@drawable/walking"
+        android:drawablePadding="8.0dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:text="当前计步"
+        android:textSize="16.0sp" />
+
+    <ProgressBar
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36.0dip"
+        android:indeterminateDrawable="@drawable/lock_screen_pull_bottom" />
+
+</RelativeLayout>

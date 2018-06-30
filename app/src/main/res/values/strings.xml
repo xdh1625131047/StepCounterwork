@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StepCounter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_menu_history">历史记录</string>
+    <string name="str_menu_target">锻炼目标</string>
+    <string name="str_menu_stop_step_counter">停止计步</string>
+    <string name="start_page_title">计步器</string>
+    <string name="history_page_title">历史记录</string>
+    <string name="start_step_counter">start</string>
+    <string name="stop_step_counter">stop</string>
+    <string name="str_current_target">今日目标%1$d步</string>
+    <string name="str_current_distance">约行走了%1$.2f公里</string>
+    <string name="str_title_right">选项</string>
+    <string name="str_record">记录</string>
+    <string name="str_days_en">Days</string>
+    <string name="str_days_cn">天</string>
+    <string name="str_weeks_en">Weaks</string>
+    <string name="str_weeks_cn">周</string>
+    <string name="str_months_en">Months</string>
+    <string name="str_months_cn">月</string>
+    <string name="str_custom_dialog_title_set_target">"请输入目标步数"</string>
+    <string name="str_custom_dialog_title_stop_stepcounter">"是否停止计步？"</string>
+    <string name="str_confirm">确定</string>
+    <string name="str_cancel">取消</string>
+    <string name="str_stop">停止</string>
+    <string name="str_step">步</string>
+    <string name="str_insist_days">已坚持天数</string>
+    <string name="str_achieved_days">已达标天数</string>
+    <!-- <string name="str_circle_progress_bar_value_display" translatable="false"><b><font size="80">kk&#58;mm</font></b></string> -->
+    <!-- <string name="str_circle_progress_bar_value_display">%1$f<b><font size="24" face="sans-serif">a</font></b></string> -->
+    <!-- <string name="str_circle_progress_bar_value_display">%1$f<b><font size="2">步</font></b></string> -->
+    <string name="str_circle_progress_bar_value_display">%1$f步</string>
+    <string name="str_circle_progress_bar_unit_display">已完成目标%1$s</string>
+    <string name="str_toast_input_target">请输入范围0到1000000之间有效目标!</string>
+    <string name="str_start_step_counter">开始计步</string>
+    <string name="str_stop_step_counter">停止计步</string>
+    <string name="str_notification_tips">计步器已开启，请注意电池电量！</string>
+    <string name="str_stop_countting">停止计步</string>
+    <string name="str_modify_tips">点击可更改目标值</string>
+    <string name="str_knows_tips">我知道了</string>
+    <string name="str_toast_enable_step_counter">计步器已开启</string>
+    <string name="str_toast_disable_step_counter">计步器已关闭</string>
+    <string name="str_lock_screen_current_steps">当前计步数</string>
+    <string name="str_lock_screen_swipe_tips">向上滑动退出</string>
+
+</resources>

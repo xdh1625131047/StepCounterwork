@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/littlejie/circleprogress/CircleProgress.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/littlejie/circleprogress/DialProgress.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/littlejie/circleprogress/WaveProgress.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/littlejie/circleprogress/utils/MiscUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/guideview/MaskView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/base/StepBaseSensor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/bean/AccSensorDataBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/bean/MessengerBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/dao/StepDbDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/logic/StepLogicInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/provider/MonthsDbHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/provider/StepDb.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/provider/StepProvider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/provider/WeeksDbHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/receiver/BootCompleteReceiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/sensors/StepAcceleroMeterSensor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/ui/StartPageActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/ui/view/SwipeListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/utils/CountDownTimer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/utils/DateUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/tony/stepcounter/utils/StringUtils.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
